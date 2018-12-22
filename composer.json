@@ -1,0 +1,21 @@
+{
+    "name": "wisonlau/report-calculate",
+    "description": "tools",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "wisonlau",
+            "email": "122022066@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php" : "^7.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Report\\Calculate\\Traits\\" : "src/Traits/"
+        }
+    }
+}
